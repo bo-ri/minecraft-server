@@ -9,6 +9,6 @@ services:
     stdin_open: true
     restart: always
     volumes:
-      - ./data:./data
+      - ./data:/data
     environment:
       EULA: "TRUE"
